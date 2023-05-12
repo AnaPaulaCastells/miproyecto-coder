@@ -83,11 +83,11 @@ header nav {
 }
 header nav a {
   font-size: 20px;
-  color: #ffffff;
+  color: white;
   padding: 20px;
 }
 header nav a:hover {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
 }
 
@@ -110,36 +110,45 @@ header nav a:hover {
 
 h1 {
   width: 250px;
-  color: #ffffff;
+  color: white;
   font-size: 70px;
   font-family: "Bebas Neue", cursive;
   font-weight: 100;
   margin-bottom: 90px;
+  animation-name: h1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
-h1 span {
-  transition: 0.7s linear;
+@keyframes h1 {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #777575;
+  }
+  100% {
+    color: white;
+  }
 }
-
-h1:hover span {
-  color: #ffffff;
-  text-shadow: 0 0 20px #000, 0 0 30px #000, 0 0 40px #000;
+/*h1 span{
+    transition: 0.7s linear;
 }
-
-h1:hover span:nth-child(1) {
-  margin-right: 5px;
-  cursor: pointer;
+h1:hover span{
+    color: $color1;
+    text-shadow: 0 0 20px $color2,  0 0 30px $color2, 0 0 40px $color2;
 }
-
-h1:hover span:nth-child(1):after {
-  content: " _";
+h1:hover span:nth-child(1){
+    margin-right: 5px;
+    cursor: pointer;
 }
-
-h1:hover span:nth-child(2) {
-  margin-left: 10px;
-  cursor: pointer;
+h1:hover span:nth-child(1):after{
+    content: " _";
 }
-
+h1:hover span:nth-child(2){
+    margin-left: 10px;
+    cursor: pointer;
+}*/
 a {
   text-decoration: none;
 }
@@ -156,7 +165,7 @@ a {
   margin-top: 30px;
 }
 .barra a {
-  color: #ffffff;
+  color: white;
   font-size: 20px;
   font-weight: lighter;
   padding: 70px;
@@ -165,7 +174,7 @@ a {
 .sloghome {
   text-align: center;
   font-size: 30px;
-  color: #ffffff;
+  color: white;
   font-family: "Shadows Into Light Two", cursive;
   margin-bottom: 120px;
 }
@@ -175,7 +184,7 @@ a {
   justify-content: center;
 }
 .ph p {
-  color: #ffffff;
+  color: white;
   font-size: 20px;
   font-weight: 100;
   margin-bottom: 10px;
@@ -185,13 +194,13 @@ footer {
   text-align: center;
 }
 footer a {
-  color: #ffffff;
+  color: white;
   font-size: 30px;
   letter-spacing: 20px;
   font-weight: 100;
 }
 footer p {
-  color: #ffffff;
+  color: white;
   font-size: 16px;
   font-weight: 100;
 }
@@ -202,7 +211,7 @@ footer p {
   line-height: 30px;
   font-size: 20px;
   color: #000;
-  background-color: #ffffff;
+  background-color: white;
   text-align: center;
   position: fixed;
   bottom: 40px;
@@ -228,14 +237,14 @@ h2 {
   font-family: "Shadows Into Light Two", cursive;
   font-size: 20px;
   text-align: center;
-  color: #ffffff;
+  color: white;
   margin-bottom: 25px;
   font-weight: lighter;
 }
 
 h4 {
   text-align: center;
-  color: #ffffff;
+  color: white;
   font-size: 40px;
   font-weight: 100;
   margin-bottom: 30px;
@@ -248,7 +257,7 @@ h4 {
 
 fieldset {
   font-size: 25px;
-  color: #ffffff;
+  color: white;
   padding: 10px;
 }
 
@@ -257,14 +266,14 @@ fieldset {
   justify-content: center;
 }
 .eventos p {
-  color: #ffffff;
+  color: white;
   font-size: 25px;
   text-align: center;
   margin-top: 70px;
   margin-bottom: 100px;
 }
 .eventos a {
-  color: #ffffff;
+  color: white;
   font-size: 20px;
 }
 
@@ -275,12 +284,12 @@ fieldset {
   flex-wrap: wrap;
 }
 .sobre-mi a {
-  color: #ffffff;
+  color: white;
   font-size: 20px;
   font-weight: 100;
 }
 .sobre-mi p {
-  color: #ffffff;
+  color: white;
   font-size: 25px;
   font-weight: 100;
   text-align: center;
@@ -304,7 +313,7 @@ fieldset {
 .deporte p {
   text-align: center;
   font-size: 25px;
-  color: #ffffff;
+  color: white;
   margin-top: 70px;
   margin-bottom: 90px;
 }
@@ -318,7 +327,7 @@ fieldset {
   justify-content: center;
 }
 .sesion p {
-  color: #ffffff;
+  color: white;
   font-size: 25px;
   text-align: center;
   margin-top: 50px;
@@ -349,7 +358,7 @@ fieldset {
   width: auto;
 }
 .serv a {
-  color: #ffffff;
+  color: white;
   font-size: 25px;
 }
 .serv a:hover {
@@ -358,7 +367,7 @@ fieldset {
 }
 
 .box {
-  border-color: #ffffff;
+  border-color: white;
   border-width: 3px;
   height: 60px;
   width: auto;
@@ -442,7 +451,7 @@ article video {
 article h3 {
   font-size: 20px;
   font-weight: 100;
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 
@@ -461,12 +470,12 @@ article h3 {
 }
 
 .ejemplo {
-  border: 1px solid #ffffff;
+  border: 1px solid white;
 }
 .ejemplo a {
   display: flex;
   justify-content: center;
-  color: #ffffff;
+  color: white;
   font-size: 30px;
   margin-top: 170px;
 }
@@ -517,7 +526,7 @@ article h3 {
 }
 
 h6 {
-  color: #ffffff;
+  color: white;
   font-size: 30px;
   font-weight: 100;
   text-align: center;
