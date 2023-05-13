@@ -7,13 +7,19 @@
 $color1: #ffff;
 $color2: #000;
 $color3: #777575;
+/*......MAPS.......*/
+$palette: (
+    "color1":#ffff,
+    "color2":#000,
+    "color":#777575,
+);
 /*......MIXIN......*/
 @mixin responsive{
     .barra{
         display: flex;
         justify-content: center;
         margin-top: 40px;
-        margin-bottom: 80px;
+        margin-bottom: 100px;
     
         img{
             display: none;
@@ -21,35 +27,70 @@ $color3: #777575;
     
         a{
             font-size: 17px;
-            padding: 5px;
+            padding: 6px;
         }
     } 
-    .hh h1{
-        margin-bottom: 80px;
+
+    .header-servicios{
+        display: flex;
+        justify-content: center;
+
+        nav{
+            a{
+                font-size: 16px;
+                padding: 6px;
+            }
+        }
     }
-    .ph p{
-        padding: 0 50px;
-        text-align: center;
-        font-size: 20px;
-        margin-bottom: 80px;
+
+    .hh {
+        h1{
+            margin-bottom: 80px;
+        }
     }
+    
+    .pop{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ph{
+        p{
+            padding: 0 50px;
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 80px;
+        }
+    } 
+    
+
     .sloghome{
         font-size: 25px;
+        padding: 20px;
         margin-bottom: 80px;
     }
-    header img{
+    
+    header{
+        display: flex;
+        justify-content: center;
+
+        img{
         display: none;
-    }
-    nav{
+        }
+    
+        nav{
         display: flex;
         justify-content: center;
         margin-top: 30px;
     
-        a{
-            font-size: 17px;
-            text-align: center;
+            a{
+                font-size: 17px;
+                padding: 5px;
+                text-align: center;
+            }
         }
     }
+    
     .ser{
         padding: 0 20px;
     }
