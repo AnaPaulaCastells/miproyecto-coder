@@ -250,33 +250,16 @@ h2 {
 }
 
 .contacto {
+  margin-top: 70px;
   display: flex;
   justify-content: center;
+  margin-bottom: 80px;
 }
-
-fieldset {
-  font-size: 25px;
+.contacto a {
   color: white;
+  font-weight: 100;
+  font-size: 150px;
   padding: 10px;
-}
-fieldset input {
-  padding: 3px;
-  font-size: 15px;
-  font-family: "Shadows Into Light Two", cursive;
-}
-fieldset textarea {
-  padding: 3px;
-  font-size: 15px;
-  font-family: "Shadows Into Light Two", cursive;
-}
-fieldset .boton {
-  background-color: #777575;
-  color: white;
-  padding: 5px;
-}
-fieldset .boton:hover {
-  color: #777575;
-  background-color: white;
 }
 
 .eventos {

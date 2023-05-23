@@ -409,37 +409,20 @@ h2{
     font-weight: 100;
     margin-bottom: 30px;
 }
+
 .contacto{
+    margin-top: 70px;
     display: flex;
-    justify-content:  center;
-}
-fieldset{
-    font-size: 25px;
-    color: $color1;
-    padding: 10px;
+    justify-content: center;
+    margin-bottom: 80px;
 
-    input{
-        padding: 3px;
-        font-size: 15px;
-        font-family:'Shadows Into Light Two', cursive;
-    }
-
-    textarea{
-        padding: 3px;
-        font-size: 15px;
-        font-family: 'Shadows Into Light Two', cursive;
-    }
-
-    .boton{
-        background-color: $color3;
+    a{
         color: $color1;
-        padding: 5px;
-
-        &:hover{
-            color: $color3;
-            background-color: $color1;
-        }
+        font-weight: 100;
+        font-size: 150px;
+        padding: 10px;
     }
+
 }
 
 .eventos{
