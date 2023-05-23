@@ -108,9 +108,10 @@ $palette: (
         background-image: url(../imagen/fongale.png);
         background-position: top;
     }
-    fieldset{
-        padding: 0 5px;
-        margin-bottom: 30px;
+    .contacto{
+        a{
+            font-size: 70px;
+        }
     }
     .sobre-mi {
         p{
