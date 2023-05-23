@@ -13,7 +13,7 @@
   font-size: 30px;
   color: white;
   font-family: "Shadows Into Light Two", cursive;
-  margin-bottom: 120px;
+  margin-bottom: 90px;
 }
 
 html {
@@ -258,6 +258,25 @@ fieldset {
   font-size: 25px;
   color: white;
   padding: 10px;
+}
+fieldset input {
+  padding: 3px;
+  font-size: 15px;
+  font-family: "Shadows Into Light Two", cursive;
+}
+fieldset textarea {
+  padding: 3px;
+  font-size: 15px;
+  font-family: "Shadows Into Light Two", cursive;
+}
+fieldset .boton {
+  background-color: #777575;
+  color: white;
+  padding: 5px;
+}
+fieldset .boton:hover {
+  color: #777575;
+  background-color: white;
 }
 
 .eventos {

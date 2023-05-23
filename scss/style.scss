@@ -177,7 +177,7 @@ $palette: (
     font-size: 30px;
     color:$color1;
     font-family: 'Shadows Into Light Two', cursive;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 }
 
 html{
@@ -417,6 +417,29 @@ fieldset{
     font-size: 25px;
     color: $color1;
     padding: 10px;
+
+    input{
+        padding: 3px;
+        font-size: 15px;
+        font-family:'Shadows Into Light Two', cursive;
+    }
+
+    textarea{
+        padding: 3px;
+        font-size: 15px;
+        font-family: 'Shadows Into Light Two', cursive;
+    }
+
+    .boton{
+        background-color: $color3;
+        color: $color1;
+        padding: 5px;
+
+        &:hover{
+            color: $color3;
+            background-color: $color1;
+        }
+    }
 }
 
 .eventos{
