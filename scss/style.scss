@@ -104,14 +104,12 @@ $palette: (
             text-align: center;
         }
     }
+
+
+
     .fondgale{
         background-image: url(../imagen/fongale.png);
         background-position: top;
-    }
-    .contacto{
-        a{
-            font-size: 70px;
-        }
     }
     .sobre-mi {
         p{
@@ -417,13 +415,29 @@ h2{
     justify-content: center;
     margin-bottom: 80px;
 
-    a{
+    fieldset{
         color: $color1;
-        font-weight: 100;
-        font-size: 150px;
         padding: 10px;
+        font-size: 25px;
+        font-weight: 100;
     }
 
+    input{
+        font-size: 17px;
+        padding: 3px;
+        font-family: 'Shadows Into Light Two', cursive;
+    }
+
+    .boton:hover{
+            background-color: $color3;
+            color: $color1;
+        }
+
+    textarea{
+        font-size:17px ;
+        font-family: 'Shadows Into Light Two', cursive;
+        padding: 5px;
+    }
 }
 
 .eventos{
