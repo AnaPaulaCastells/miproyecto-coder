@@ -249,31 +249,16 @@ h2 {
   margin-bottom: 30px;
 }
 
-.contacto {
-  margin-top: 70px;
+.conti {
   display: flex;
   justify-content: center;
-  margin-bottom: 80px;
 }
-.contacto fieldset {
+.conti a {
   color: white;
-  padding: 10px;
-  font-size: 25px;
-  font-weight: 100;
-}
-.contacto input {
-  font-size: 17px;
-  padding: 3px;
-  font-family: "Shadows Into Light Two", cursive;
-}
-.contacto .boton:hover {
-  background-color: #777575;
-  color: white;
-}
-.contacto textarea {
-  font-size: 17px;
-  font-family: "Shadows Into Light Two", cursive;
-  padding: 5px;
+  font-size: 90px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 130px;
 }
 
 .eventos {
